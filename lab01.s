@@ -12,7 +12,7 @@
 matric: # Words ending with ':' are **labels**
         # The common convention is to write labels starting from the leftmost column.
         # Try to keep label names short
-        .word 30  # This directive reserves enough space for a word in memory
+        .word 5440  # This directive reserves enough space for a word in memory
                   #  and initializes it with the specific value.
 matricplus1:
         .word 0   
